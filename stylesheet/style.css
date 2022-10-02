@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.5; 
+}
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-48 {
+    flex: 0 1 48%;
+}
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+main {
+    height: 100vh;
+  background: url(/assets/media/Lovepik_com-400729395-fireworks.png) no-repeat, linear-gradient(#fd7979, #fd7979); 
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+    font-size: 48px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.text {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 24px;
+}
+.btn {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    padding: 12px 24px;
+    color: #fff;
+    border-radius: 6px;
+    
+
+}
+.btn strong {
+    font-weight: 700;
+}
+.btn-primary {
+    background-color: #5d54a3;
+    font-weight: 400;
+    margin-bottom: 32px;  
+    box-shadow: 0,6px,0 rgba(0,0,0,0.3);
+}
+fieldset {
+    border: 0;
+}
+form {
+    background-color: #FFF;
+    border-radius: 8PX;
+    padding: 32px;
+}
+.form-control {
+    display: inline-block;
+    width: 100%;
+    padding: 16px 24px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: 0;
+}
+.form-control:focus {
+    border-color: #5d54a3;
+}
+.btn-secondary {
+    border: 0;
+    box-shadow: none;
+    background-color: #37cc84;
+    font-size: 18px;
+}
+form p{
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+}
+form p a {
+    color: #fd7979;
+    font-weight: 600;
+    text-decoration: none;
+}
